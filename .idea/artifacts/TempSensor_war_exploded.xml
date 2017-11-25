@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TempSensor:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TempSensor_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TempSensor/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TempSensor" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
