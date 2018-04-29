@@ -11,7 +11,7 @@ public class MyApplication extends Application {
     @Override
     public Set<Class<?>> getClasses() {
         final Set<Class<?>> classes = new HashSet<Class<?>>();
-        classes.add(OutputPage.class);
+        classes.add(SensorResource.class);
         return classes;
     }
 }
